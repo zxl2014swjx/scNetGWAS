@@ -1,0 +1,14 @@
+run_model=node
+normalization_model=none
+module_score=penalty
+gwas_node_file=/yourpath/Input_GWAS/Example_GWAS.INT.txt
+scrn_expr_file=/yourpath/Input_scRNA/Example_scRNA.INT.filter.txt
+network_file=/yourpath/Reference/PathwayCommons12.All.hgnc.exPCDHA.MHC.NCBI37.tsv
+r_include=0.2
+r_exclude=0.1
+remove_zero=true
+outfile=/yourpath/Output/CellHint_Hippocampus_anterior_ExN_CA_ACVR1C
+permutation=false
+verbose=true
+exclude_genes_file=/yourpath/Reference/HSIAO_HOUSEKEEPING_GENES_405_new.txt
+int_genes_file=/yourpath/Input_GWAS/Example_GWAS.top1k.txt
